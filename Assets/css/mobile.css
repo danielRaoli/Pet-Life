@@ -1,0 +1,60 @@
+@media  screen and (max-width:800px) {
+    header{
+        padding: 1.5rem 3rem;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    section .figure{
+        width: 80%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 3rem;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .menu{
+        flex-direction: column;
+        padding-top: 5rem; 
+        position: fixed;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        left: 0;
+        overflow: hidden; 
+        background-color: var(--collor-orange);
+        z-index: 1000;
+        align-items: center;
+        display: none;
+    }
+    .menu-button{
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    section{
+        padding: 1rem;
+    }
+
+    .main-button{
+        padding: 1rem;
+    }
+}
